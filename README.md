@@ -1,8 +1,8 @@
 # Kubernetes Metrics Server
 
-Metrics server is one of the components in core metrics pipeline described in [Kubernetes monitoring architecture].
+[Metrics](youtube.com)  server is one of the components in core metrics pipeline described in [Kubernetes monitoring architecture].
 Metrics server is responsible for collecting resource metrics from kubelets and exposing them in Kubernetes Apiserver
-through [Metrics API]. Main consumers of those metrics are `kubectl top`, [HPA](youtube.com) and [VPA]. Metric server stores only the
+through [Metrics API]. Main consumers of those metrics are `kubectl top`, [HPA]and [VPA]. Metric server stores only the
 latest values of metrics needed for core metrics pipeline (CPU, Memory) and is not responsible for forwarding metrics
 to third-party destinations.
 
